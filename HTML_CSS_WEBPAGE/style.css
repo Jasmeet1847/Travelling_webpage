@@ -1,0 +1,472 @@
+.navbar_1 img {
+  width: 3%;
+}
+.navbar_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+}
+.navbar_1 .second {
+  display: flex;
+  margin-right: 15%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar_1 .first {
+  margin-left: 15%;
+}
+.navbar_1 .login {
+  margin-inline-end: 5%;
+}
+.page_1 {
+  background-image: url("images/brazil.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.page_1 .first {
+  display: flex;
+  margin-left: 5%;
+}
+.page_1 .first .left h4 {
+  font-size: xx-large;
+  color: white;
+}
+.page_1 .first img {
+  width: 15%;
+}
+.page_1 .first .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_1 .first .center {
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+}
+.page_1 .first .right img {
+  width: 15%;
+}
+.page_1 .first .right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.page_1 .center p {
+  margin-inline-end: 5%;
+}
+.page_1 .heading_1 .button {
+  border: 1px solid black;
+  font-size: small;
+  background-image: linear-gradient(to bottom right, purple, orange);
+  border-radius: 35px;
+}
+.page_1 .heading_1 {
+  width: 50%;
+  margin: auto;
+}
+.page_1 .center_1 .image img {
+  width: 10%;
+}
+.page_1 .center_1 .image_2 img {
+  width: 10%;
+}
+.page_1 .image {
+  margin-left: 2%;
+}
+.page_1 .image_2 {
+  margin-right: 2%;
+}
+
+.page_1 .center_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  color: white;
+}
+.page_1 .heading {
+  text-align: center;
+}
+.page_1 .center_1 h1 {
+  font-size: 320%;
+}
+.page_1 .center_1 h2 {
+  font-size: 320%;
+}
+.page_1 .center_1 .image_2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.page_1 .bottom .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_1 .bottom .box1 {
+  margin-inline-end: 1%;
+}
+.page_1 .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, purple, orange);
+  height: 25vh;
+  margin-top: 7%;
+}
+.page_1 .bottom .submit {
+  margin-top: 4%;
+}
+.page_1 .bottom .submit a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: small;
+  padding: 5%;
+  background-image: linear-gradient(to bottom right, purple, orange);
+}
+.page_2 .pic1 {
+  background-image: url("images/greece.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-inline-end: 3%;
+  height: 40vh;
+}
+.page_2 .button_2 {
+  margin-top: 20%;
+}
+.page_2 .button_2 a {
+  color: white;
+
+  font-size: medium;
+  padding: 3%;
+  border-radius: 28px;
+  background-image: linear-gradient(to bottom right, purple, orange);
+  text-decoration: none;
+}
+.page_2 .pic2 {
+  background-image: url("images/greece.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-inline-end: 3%;
+  height: 40vh;
+}
+.page_2 .button {
+  margin-top: 8%;
+}
+.page_2 .button a {
+  text-decoration: none;
+  color: aliceblue;
+  border: 1px solid black;
+  background: orange;
+  border-radius: 10px;
+  padding: 1%;
+  font-size: small;
+}
+.page_2 .pic3 {
+  background-image: url("images/scotland.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-inline-end: 3%;
+  height: 40vh;
+}
+.page_2_child .second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+.page_2_child .first {
+  text-align: center;
+}
+.page_3 {
+  background-image: url("images/beach.webp");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  background-blend-mode: overlay;
+  background-color: blueviolet;
+}
+
+.page_3 .second a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: small;
+  padding: 1%;
+  background-image: linear-gradient(to bottom right, purple, orange);
+}
+
+.page_3_child .contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.page_3 .second_child {
+  margin: 4%;
+}
+.page_3_child .second {
+  background-color: white;
+  height: 35vh;
+}
+.page_4 .photo img {
+  width: 100%;
+}
+.page_4 {
+  background-color: aliceblue;
+}
+.page_4 .first {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.page_4 .cycle img {
+  width: 10%;
+}
+.page_4 .rating img {
+  width: 15%;
+}
+.page_4 .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_4 .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_4 .heading {
+  display: flex;
+  align-items: center;
+}
+.page_4 .second {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+.page_5 {
+  text-align: center;
+}
+.page_5 .second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_5 .pic1 {
+  background-image: url("images/sunglass.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  margin-inline-end: 3%;
+}
+.page_5 .pic2 {
+  background-image: url("images/backbikini.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  margin-inline-end: 3%;
+}
+
+.page_5 .pic3 {
+  background-image: url("images/bikiniboat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  margin-inline-end: 3%;
+}
+.page_5 .second img {
+  margin-inline-end: 3%;
+}
+.page_5 .box_3_child {
+  width: 31%;
+  background: white;
+}
+.page_5 .box_2_child {
+  width: 31%;
+  background: white;
+}
+.page_5 .box_1_child {
+  width: 31%;
+  background: white;
+}
+.page_5 .contents {
+  color: white;
+  text-align: center;
+}
+.page_5 .contents_child {
+  width: 50%;
+  margin: auto;
+}
+.page_5 {
+  border-bottom: 3px solid;
+  height: 60vh;
+  margin-top: 5%;
+}
+.page_6 {
+  margin-top: 5%;
+  height: 70vh;
+}
+.page_6 img {
+  width: 80%;
+}
+.page_6 .second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+.page_6 .first {
+  text-align: center;
+}
+.page_6 .contents {
+  margin-right: 10%;
+}
+.page_6 .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page_7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/blur.jpg");
+  background-size: cover;
+  height: 35vh;
+}
+.page_7 .form {
+  background-image: linear-gradient(to bottom right, purple, orange);
+  position: absolute;
+  height: 50vh;
+  top: -302px;
+  left: 300px;
+  height: 50vh;
+  width: 75%;
+}
+.page_7 .form form {
+  padding: 6%;
+}
+::placeholder {
+  color: white;
+}
+.page_7 .form h2 {
+  color: white;
+  margin-left: 4%;
+}
+.form input {
+  border: none;
+  border-bottom: 3px solid silver;
+  background: transparent;
+}
+.form textarea {
+  border: none;
+  border-bottom: 3px solid silver;
+  background: transparent;
+}
+.form a {
+  text-decoration: none;
+  color: white;
+  background: purple;
+  border-radius: 22px;
+  padding: 3%;
+  font-size: medium;
+}
+
+.page_7_child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin: auto;
+  position: relative;
+}
+.page_7 .first {
+  position: absolute;
+  top: -300px;
+}
+.page_7 img {
+  width: 40%;
+}
+.page_8 .second img {
+  width: 10%;
+}
+.page_8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+}
+.page_8_child {
+  display: flex;
+  width: 60%;
+}
+.page_8 .second .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_8 .second img {
+  width: 25%;
+  margin-inline-end: 5%;
+}
+.page_8 .tags a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid orange;
+  background: transparent;
+  margin-inline-end: 6%;
+}
+
+.page_8 .first .heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.page_8 .third {
+  text-align: center;
+}
+.tag_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.page_8 .second {
+  margin-right: 20%;
+}
+.page_2 {
+  margin-top: 5%;
+}
+.page_2 .para p {
+  font-style: italic;
+  color: silver;
+}
